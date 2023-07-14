@@ -1,4 +1,4 @@
-# LUCYD: LUCYD: Feature-driven Richardson-Lucy Deconvolution Network
+# LUCYD: A Feature-Driven Richardson-Lucy Deconvolution Network
 
 Folder structure:
 
