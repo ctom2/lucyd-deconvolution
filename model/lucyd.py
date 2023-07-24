@@ -74,34 +74,7 @@ class AFF(nn.Module):
     def forward(self, x1, x2):
         x = torch.cat([x1, x2], dim=1)
         return self.conv(x)
-
-
-class SCM(nn.Module):
-    def __init__(self, out_plane, in_channels):
-        super(SCM, self).__init__()
-
-        self.main = nn.Sequential(
-            BasicConv(in_channels, out_plane//2, kernel_size=3, stride=1, relu=True),
-            BasicConv(out_plane // 2, out_plane-in_channels, kernel_size=3, stride=1, relu=True)
-        )
-
-        self.conv = BasicConv(out_plane, out_plane, kernel_size=1, stride=1, relu=False)
-
-    def forward(self, x):
-        x = torch.cat([x, self.main(x)], dim=1)
-        return self.conv(x)
-
-
-class FAM(nn.Module):
-    def __init__(self, channel):
-        super(FAM, self).__init__()
-        self.merge = BasicConv(channel, channel, kernel_size=3, stride=1, relu=False)
-
-    def forward(self, x1, x2):
-        x = x1 * x2
-        out = x1 + self.merge(x)
-        return out
-
+    
 
 class RL_DIV(nn.Module):
     def __init__(self, channel):
