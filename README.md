@@ -39,3 +39,14 @@ model = train(model, train_dataloader, test_dataloader)
 ```
 evaluate(model, eval_dataloader)
 ```
+
+## Cite
+Please cite our work if you find it useful to your research.
+```
+@article{chobola2023lucyd,
+  title={LUCYD: A Feature-Driven Richardson-Lucy Deconvolution Network},
+  author={Chobola, Tom{\'a}{\v{s}} and M{\"u}ller, Gesine and Dausmann, Veit and Theileis, Anton and Taucher, Jan and Huisken, Jan and Peng, Tingying},
+  journal={arXiv preprint arXiv:2307.07998},
+  year={2023}
+}
+```
