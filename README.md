@@ -25,6 +25,9 @@ lucyd-deconvolution
 ## Prerequisities:
 * Python 3.7 or higher
 * PyTorch 1.12.1 or higher
+* NumPy 1.22.4
+* TorchMetrics 1.0.1
+* Tifffile 2023.7.10
 
 ## Training:
 ```
