@@ -8,23 +8,6 @@ The process of acquiring microscopic images in life sciences often results in im
 
 ![LUCYD](./figures/architecture.png)
 
-Folder structure:
-
-```
-lucyd-deconvolution
-│   lucyd.py
-│   evaluate.py
-│   train.py
-│
-└───utils
-│   │   loader.py
-│   │   ssim.py
-│
-└───data
-│   │   gt
-│   │   nuc
-│   │   act
-```
 
 ## Prerequisities:
 * Python 3.7 or higher
