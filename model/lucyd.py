@@ -92,7 +92,7 @@ class RL_DIV(nn.Module):
 
 
 class LUCYD(nn.Module):
-    def __init__(self, num_res=4, in_channels=1):
+    def __init__(self, num_res=1, in_channels=1):
         super(LUCYD, self).__init__()
 
         base_channel = 4
