@@ -1,6 +1,6 @@
 # LUCYD: A Feature-Driven Richardson-Lucy Deconvolution Network
 
-[[pdf](https://arxiv.org/pdf/2307.07998)]
+[[paper](https://link.springer.com/chapter/10.1007/978-3-031-43993-3_63)][[arXiv](https://arxiv.org/pdf/2307.07998)]
 
 [Run in Colab 🟡▶️](https://colab.research.google.com/drive/1KG0Iv1bEcE2Hx7AYRBxk8I-mKRP5vKbw?usp=sharing)
 
