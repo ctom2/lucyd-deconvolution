@@ -30,10 +30,19 @@ evaluate(model, eval_dataloader)
 ## Cite
 Please cite our work if you find it useful to your research.
 ```
-@article{chobola2023lucyd,
-  title={LUCYD: A Feature-Driven Richardson-Lucy Deconvolution Network},
-  author={Chobola, Tom{\'a}{\v{s}} and M{\"u}ller, Gesine and Dausmann, Veit and Theileis, Anton and Taucher, Jan and Huisken, Jan and Peng, Tingying},
-  journal={arXiv preprint arXiv:2307.07998},
-  year={2023}
+@InProceedings{10.1007/978-3-031-43993-3_63,
+  author="Chobola, Tom{\'a}{\v{s}}
+  and M{\"u}ller, Gesine
+  and Dausmann, Veit
+  and Theileis, Anton
+  and Taucher, Jan
+  and Huisken, Jan
+  and Peng, Tingying",
+  title="LUCYD: A Feature-Driven Richardson-Lucy Deconvolution Network",
+  booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2023",
+  year="2023",
+  publisher="Springer Nature Switzerland",
+  pages="656--665",
+  isbn="978-3-031-43993-3"
 }
 ```
